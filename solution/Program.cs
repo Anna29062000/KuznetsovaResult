@@ -1,0 +1,1 @@
+﻿string[] array1 = new string[4] {"1234", "1567", "-2", "computer sciense"}; // задаем изначальный массив строк
