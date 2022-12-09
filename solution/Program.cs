@@ -16,3 +16,10 @@ int StringSelection(string[] array1, string[] array2) // функция для �
 
     return n;
 }
+
+int n = StringSelection(array1, array2);
+
+for (int i = 0; i < n; i++)
+{
+    Console.Write($"{array2[i]} ");
+}
