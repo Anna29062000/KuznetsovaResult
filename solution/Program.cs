@@ -19,7 +19,7 @@ int StringSelection(string[] array1, string[] array2) // функция для �
 
 int n = StringSelection(array1, array2);
 
-for (int i = 0; i < n; i++)
+for (int i = 0; i < n; i++) // цикл для вывода нового масиива
 {
     Console.Write($"{array2[i]} ");
 }
